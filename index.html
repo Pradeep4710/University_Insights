@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study MBBS Abroad</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" type="image/png" href="/src/favicon.png">
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HM5J1KFZY9"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-HM5J1KFZY9');
+    </script>
+</head>
+<body class="bg-gray-100">
+    
+    <!-- Hero Section -->
+    <section class="bg-blue-600 text-white text-center py-4 bg-[url('./src/banner.png')] bg-cover bg-center">
+        <h1 class="text-4xl font-bold">Apply Now for MBBS Abroad</h1>
+        <p class="mt-4 text-lg">Study in top medical universities around the world.</p>
+        <button class="mt-6 px-6 py-3 bg-white text-blue-600 font-semibold rounded-lg shadow-md hover:bg-gray-100 transition-transform duration-300 hover:scale-105">Get Started</button>
+    </section>
+    <div class="w-full h-0.5 bg-gray-300"></div>
+    
+    <!-- Why Study MBBS Abroad -->
+    <section class="relative bg-cover bg-no-repeat bg-center py-16 px-4" style="background-image: url('./src/Background.jpg');">
+        <!-- Overlay for better readability -->
+        <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+    
+        <!-- Content (placed above overlay) -->
+        <div class="relative z-10 text-center">
+            <h2 class="text-4xl font-bold text-white mb-6">Why Study MBBS Abroad?</h2>
+            <ul class="list-disc p-5 mx-auto max-w-2xl space-y-4 text-white text-xl font-semibold text-left">
+                <li>✅ Affordable Tuition Fees</li>
+                <li>✅ Global Recognition</li>
+                <li>✅ No Entrance Exams</li>
+                <li>✅ Modern Infrastructure</li>
+            </ul>
+        </div>
+    </section>
+    
+    <div class="w-full h-0.5 bg-gray-300"></div>
+    
+    <!-- Top Countries -->
+    <section class="bg-blue-600 py-16">
+        <h2 class="text-3xl text-white font-bold text-center mb-6">Top Countries</h2>
+        <div class="flex flex-wrap justify-center gap-6 text-center">
+          <div onclick="showModal('russia')">
+            <div class="w-36 h-24 rounded-lg bg-[url('./src/Flags/russia.png')] bg-contain bg-no-repeat bg-center transition-transform duration-300 hover:scale-125"></div>
+            <p class="text-white mt-2">Russia</p>
+          </div>
+          <div onclick="showModal('uzbekistan')">
+            <div class="w-36 h-24 rounded-lg bg-[url('./src/Flags/uzbekistan.png')] bg-contain bg-no-repeat bg-center transition-transform duration-300 hover:scale-125"></div>
+            <p class="text-white mt-2">Uzbekistan</p>
+          </div>
+          <div onclick="showModal('kazakhstan')">
+            <div class="w-36 h-24 rounded-lg bg-[url('./src/Flags/kazakhstan.png')] bg-contain bg-no-repeat bg-center transition-transform duration-300 hover:scale-125"></div>
+            <p class="text-white mt-2">Kazakhstan</p>
+          </div>
+          <div onclick="showModal('philippines')">
+            <div class="w-36 h-24 rounded-lg bg-[url('./src/Flags/philippines.png')] bg-contain bg-no-repeat bg-center transition-transform duration-300 hover:scale-125"></div>
+            <p class="text-white mt-2">Philippines</p>
+          </div>
+          <div onclick="showModal('georgia')">
+            <div class="w-36 h-24 rounded-lg bg-[url('./src/Flags/georgia.png')] bg-contain bg-no-repeat bg-center transition-transform duration-300 hover:scale-125"></div>
+            <p class="text-white mt-2">Georgia</p>
+          </div>
+          <div onclick="showModal('kyrgyzstan')">
+            <div class="w-36 h-24 rounded-lg bg-[url('./src/Flags/kyrgyzstan.png')] bg-contain bg-no-repeat bg-center  transition-transform duration-300 hover:scale-125"></div>
+            <p class="text-white mt-2">Kyrgyzstan</p>
+          </div>
+          <div onclick="showModal('egypt')">
+            <div class="w-36 h-24 rounded-lg bg-[url('./src/Flags/egypt.png')] bg-contain bg-no-repeat bg-center transition-transform duration-300 hover:scale-125"></div>
+            <p class="text-white mt-2">Egypt</p>
+          </div>
+        </div>
+      </section>
+      
+      <!-- Modals for each country -->
+      <div id="modal-russia" class="hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+        <div class="bg-white p-6 rounded-lg w-1/3">
+          <h3 class="text-xl font-bold mb-4">Study MBBS in Russia</h3>
+          <p class="mb-2">• Affordable tuition fees and living costs.</p>
+          <p class="mb-2">• Globally recognized degrees and top medical universities.</p>
+          <p class="mb-2">• No entrance exams and English-medium courses.</p>
+          <p class="mb-2">• Advanced infrastructure and modern teaching methodologies.</p>
+          <p class="mb-2">• Cultural diversity and safe environment for international students.</p>
+          <button onclick="closeModal('russia')" class="mt-4 px-4 py-2 bg-blue-600 text-white rounded">Close</button>
+        </div>
+      </div>
+      
+      <div id="modal-uzbekistan" class="hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+        <div class="bg-white p-6 rounded-lg w-1/3">
+          <h3 class="text-xl font-bold mb-4">Study MBBS in Uzbekistan</h3>
+          <p class="mb-2">• Cost-effective medical education with low tuition fees.</p>
+          <p class="mb-2">• High-quality education and well-equipped universities.</p>
+          <p class="mb-2">• No donation or capitation fees required.</p>
+          <p class="mb-2">• English-medium instruction for international students.</p>
+          <p class="mb-2">• Safe and friendly environment with rich cultural heritage.</p>
+          <button onclick="closeModal('uzbekistan')" class="mt-4 px-4 py-2 bg-blue-600 text-white rounded">Close</button>
+        </div>
+      </div>
+      
+      <div id="modal-kazakhstan" class="hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+        <div class="bg-white p-6 rounded-lg w-1/3">
+          <h3 class="text-xl font-bold mb-4">Study MBBS in Kazakhstan</h3>
+          <p class="mb-2">• Cost-effective medical education with low tuition fees.</p>
+          <p class="mb-2">• High-quality education and well-equipped universities.</p>
+          <p class="mb-2">• No donation or capitation fees required.</p>
+          <p class="mb-2">• English-medium instruction for international students.</p>
+          <p class="mb-2">• Safe and friendly environment with rich cultural heritage.</p>
+          <button onclick="closeModal('kazakhstan')" class="mt-4 px-4 py-2 bg-blue-600 text-white rounded">Close</button>
+        </div>
+      </div>
+      
+      <div id="modal-philippines" class="hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+        <div class="bg-white p-6 rounded-lg w-1/3">
+          <h3 class="text-xl font-bold mb-4">Study MBBS in Philippines</h3>
+          <p class="mb-2">• Cost-effective medical education with low tuition fees.</p>
+          <p class="mb-2">• High-quality education and well-equipped universities.</p>
+          <p class="mb-2">• No donation or capitation fees required.</p>
+          <p class="mb-2">• English-medium instruction for international students.</p>
+          <p class="mb-2">• Safe and friendly environment with rich cultural heritage.</p>
+          <button onclick="closeModal('philippines')" class="mt-4 px-4 py-2 bg-blue-600 text-white rounded">Close</button>
+        </div>
+      </div>
+      
+      <div id="modal-georgia" class="hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+        <div class="bg-white p-6 rounded-lg w-1/3">
+          <h3 class="text-xl font-bold mb-4">Study MBBS in Georgia</h3>
+          <p class="mb-2">• Cost-effective medical education with low tuition fees.</p>
+          <p class="mb-2">• High-quality education and well-equipped universities.</p>
+          <p class="mb-2">• No donation or capitation fees required.</p>
+          <p class="mb-2">• English-medium instruction for international students.</p>
+          <p class="mb-2">• Safe and friendly environment with rich cultural heritage.</p>
+          <button onclick="closeModal('georgia')" class="mt-4 px-4 py-2 bg-blue-600 text-white rounded">Close</button>
+        </div>
+      </div>
+      
+      <div id="modal-kyrgyzstan" class="hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+        <div class="bg-white p-6 rounded-lg w-1/3">
+          <h3 class="text-xl font-bold mb-4">Study MBBS in Kyrgyzstan</h3>
+          <p class="mb-2">• Cost-effective medical education with low tuition fees.</p>
+          <p class="mb-2">• High-quality education and well-equipped universities.</p>
+          <p class="mb-2">• No donation or capitation fees required.</p>
+          <p class="mb-2">• English-medium instruction for international students.</p>
+          <p class="mb-2">• Safe and friendly environment with rich cultural heritage.</p>
+          <button onclick="closeModal('kyrgyzstan')" class="mt-4 px-4 py-2 bg-blue-600 text-white rounded">Close</button>
+        </div>
+      </div>
+      
+      <div id="modal-egypt" class="hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+        <div class="bg-white p-6 rounded-lg w-1/3">
+          <h3 class="text-xl font-bold mb-4">Study MBBS in Egypt</h3>
+          <p class="mb-2">• Cost-effective medical education with low tuition fees.</p>
+          <p class="mb-2">• High-quality education and well-equipped universities.</p>
+          <p class="mb-2">• No donation or capitation fees required.</p>
+          <p class="mb-2">• English-medium instruction for international students.</p>
+          <p class="mb-2">• Safe and friendly environment with rich cultural heritage.</p>
+          <button onclick="closeModal('egypt')" class="mt-4 px-4 py-2 bg-blue-600 text-white rounded">Close</button>
+        </div>
+      </div>
+      
+      <script>
+        function showModal(country) {
+          document.getElementById(`modal-${country}`).classList.remove('hidden');
+        }
+        function closeModal(country) {
+          document.getElementById(`modal-${country}`).classList.add('hidden');
+        }
+      </script>
+      
+    <div class="w-full h-0.5 bg-gray-300"></div>
+    
+    <!-- Admission Process & Eligibility -->
+    <section class="max-w-7xl mx-auto py-8 px-4">
+        <h2 class="text-4xl underline font-bold text-center mb-6">Admission Process & Eligibility</h2>
+        <div class="flex items-start justify-around">
+            <ol class="list-decimal pl-6 text-xl font-semibold space-y-2">
+                <li>Step 1: Choose your country.</li>
+                <li>Step 2: Submit your documents.</li>
+                <li>Step 3: Receive admission letter.</li>
+                <li>Step 4: Apply for visa.</li>
+                <li>Step 5: Fly to your destination.</li>
+            </ol>
+            <img src="/src/Student.png" alt="Student" class="ml-4 w-48 h-auto">
+        </div>
+    </section>
+    <div class="w-full h-0.5 bg-gray-300"></div>
+    
+    <!-- Lead Generation Form -->
+    <section class="bg-blue-600 text-white py-16 text-center bg-[url('./src/Background2.jpg')] bg-cover bg-center relative">
+        <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+        <h2 class="text-5xl underline mb-10 font-bold relative z-10">Apply Now...</h2>
+        <form class="mt-6 max-w-lg mx-auto bg-white p-6 rounded-lg shadow-md text-black relative z-10">
+            <input type="text" placeholder="Full Name" class="w-full p-3 mb-4 border border-gray-300 rounded-lg">
+            <input type="email" placeholder="Email" class="w-full p-3 mb-4 border border-gray-300 rounded-lg">
+            <input type="tel" placeholder="Phone" class="w-full p-3 mb-4 border border-gray-300 rounded-lg">
+            <select class="w-full p-3 mb-4 border border-gray-300 rounded-lg">
+                <option>Select Country</option>
+                <option>Russia</option>
+                <option>Uzbekistan</option>
+                <option>Kazakhstan</option>
+                <option>Philippines</option>
+                <option>Georgia</option>
+                <option>Kyrgyzstan</option>
+                <option>Egypt</option>
+            </select>
+            <button class="w-full bg-blue-500 text-white p-3 rounded-lg font-semibold hover:bg-blue-600 hover:scale-105 transition-transform duration-300">Submit</button>
+        </form>
+    </section>
+    
+</body>
+</html>
