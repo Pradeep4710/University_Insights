@@ -63,7 +63,7 @@ This project is a simple HTML and Tailwind CSS landing page designed for promoti
 ## Deployment:
 The project has been deployed on netlify platform.
 
-LINK: 
+LINK: https://university-insights-mbbs.netlify.app/
 
 ---
 
